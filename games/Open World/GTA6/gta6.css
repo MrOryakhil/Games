@@ -1,0 +1,269 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Title and Paragraph Styling */
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+    color: #ff6600; /* Vibrant color for titles */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.paragraph {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Divider Styling */
+hr {
+    border: 1px solid #ff6600;
+    margin: 30px 0;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .title {
+        font-size: 1.5em;
+    }
+
+    .paragraph {
+        font-size: 1em;
+        padding-left: 10px; /* Reduce padding for readability on smaller screens */
+        padding-right: 10px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #1a1a1a; /* Change background color */
+    color: #fff;
+    padding: 1rem;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row; /* Default flex direction for large screens */
+}
+
+/* Logo styles */
+.log {
+    order: 0; /* Ensure logo appears first on large screens */
+}
+
+.log a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menu styles */
+.navdiv ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row; /* Ensure horizontal layout */
+}
+
+.navdiv ul li {
+    margin-left: 1.5rem;
+}
+
+.navdiv ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navdiv ul li a:hover {
+    color: #ccc;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navdiv {
+        flex-direction: column;
+        align-items: center; /* Center align items */
+    }
+
+    .log {
+        order: 1; /* Move logo to the bottom */
+        margin-top: 1rem; /* Add margin for spacing */
+    }
+
+    .navdiv ul {
+        flex-direction: row; /* Horizontal layout for mobile devices */
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .navdiv ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .log a {
+        font-size: 1.2rem;
+    }
+
+    .navdiv ul li a {
+        font-size: 0.9rem;
+    }
+}
+/* Make the link text color the same as the paragraph (white) */
+.backlinks {
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+
+/* Change the color when the mouse hovers over the link */
+.backlinks:hover {
+    color: yellow; /* Change to your preferred hover color */
+}
+/* Footer styles */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px 20px;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #f4f4f4;
+}
+
+.footer-column p {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: yellow;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links li a {
+    color: #ccc;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    color: yellow;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+.trailer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.trailer h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+/* CSS for the trailer section */
+.trailer {
+    text-align: center;
+    margin: 20px 0;
+}
+    
+.trailer h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+    
